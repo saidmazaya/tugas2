@@ -1,126 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tugas Pemrograman Web 2</title>
-    <link rel="stylesheet" href="form.css">
-</head>
-<body>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
     <h1 class="Judul">Formulir Pendaftaran Peserta Pulau Sumatera</h1>
     <div class="form">
-    <form action="" method="post" class="formulir">
+      <form action="" method="post" class="formulir">
         <fieldset>
-            <legend><b>Akun</b></legend>
-            <table>
-                <tr>
-                    <td><label for="Username">Username</label></td>
-                    <td>:</td>
-                    <td><input type="text" name="Username" id="Username" minlength="5" class="ubah" placeholder="Minimal 5 Karakter"></td>
-                </tr>
-                <tr>
-                    <td><label for="Password">Password</label></td>
-                    <td>:</td>
-                    <td><input type="password" name="Password" id="Password" minlength="8" class="ubah" placeholder="Minimal 8 Karakter"></td>
-                </tr>
-                <tr>
-                    <td><label for="Konfirmasi">Konfirmasi Password</label></td>
-                    <td>:</td>
-                    <td><input type="password" name="Konfirmasi" id="Konfirmasi" minlength="8" class="ubah"></td>
-                </tr>
-            </table>
+          <legend><b>Akun</b></legend>
+          <table>
+            <tr>
+              <td><label for="Username">Username</label></td>
+              <td>:</td>
+              <td><input type="text" name="Username" id="Username" minlength="5" class="ubah" placeholder="Minimal 5 Karakter" /></td>
+            </tr>
+            <tr>
+              <td><label for="Password">Password</label></td>
+              <td>:</td>
+              <td><input type="password" name="Password" id="Password" minlength="8" class="ubah" placeholder="Minimal 8 Karakter" /></td>
+            </tr>
+            <tr>
+              <td><label for="Konfirmasi">Konfirmasi Password</label></td>
+              <td>:</td>
+              <td><input type="password" name="Konfirmasi" id="Konfirmasi" minlength="8" class="ubah" /></td>
+            </tr>
+          </table>
         </fieldset>
         <fieldset>
-            <legend><b>Data Peserta</b></legend>
-            <table>
-                <tr>
-                    <td><label for="Nama">Nama</label></td>
-                    <td>:</td>
-                    <td><input type="text" name="Nama" id="Nama" size="26" minlength="5" placeholder="Minimal 5 Karakter"></td>
-                </tr>
-                <tr>
-                    <td><label for="Univ">Asal Universitas</label></td>
-                    <td>:</td>
-                    <td><input type="text" name="Univ" id="Univ" size="26"></td>
-                </tr>
-                <tr>
-                    <td><label for="NIM">NIM</label></td>
-                    <td>:</td>
-                    <td><input type="number" name="NIM" id="NIM"></td>
-                </tr>
-                <tr>
-                    <td><label for="email">Email</label></td>
-                    <td>:</td>
-                    <td><input type="email" name="email" id="email" size="26" placeholder="Masukkan Email (Gunakan @)"></td>
-                </tr>
-                <tr>
-                    <td>Asal Provinsi</td>
-                    <td>:</td>
-                    <td><select name="Provinsi" id="Provinsi" class="select">
-                        <option value="#">Pilih Salah Satu</option>
-                        <option value="Aceh">Aceh</option>
-                        <option value="Sumatera Utara">Sumatera Utara</option>
-                        <option value="Riau">Riau</option>
-                        <option value="Kepulauan Riau">Kepulauan Riau</option>
-                        <option value="Sumatera Barat">Sumatera Barat</option>
-                        <option value="Sumatera Selatan">Sumatera Selatan</option>
-                        <option value="Jambi">Jambi</option>
-                        <option value="Bengkulu">Bengkulu</option>
-                        <option value="Kepulauan Bangka Belitung">Kepulauan Bangka Belitung</option>
-                        <option value="Lampung">Lampung</option>
-                    </select>
-                    </td>
-                </tr>
-                <tr>
-                <tr>
-                    <td>Alamat Lengkap</td>
-                    <td>:</td>
-                    <td><textarea name="Alamat Lengkap" id="" cols="29" rows="5" class="textarea"></textarea></td>
-                </tr>
-                <tr>
-                    <td><label for="Jenis Kelamin">Jenis Kelamin</label></td>
-                    <td>:</td>
-                    <td><input type="radio" name="Jenis Kelamin" id="Jenis Kelamin">Laki-laki</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td><input type="radio" name="Jenis Kelamin" id="Jenis Kelaminb">Perempuan</td>
-                </tr>
-                <tr>
-                    <td><label for="Cabang">Lomba Yang Diikuti</label></td>
-                    <td>:</td>
-                    <td><input type="checkbox" name="Cabang" id="Cabang">Karya Ilmiah</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td><input type="checkbox" name="Cabang" id="Cabangb">Robotik</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td><input type="checkbox" name="Cabang" id="Cabangc">Debat</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td><input type="checkbox" name="Cabang" id="Cabangd">E-Sport</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td><input type="checkbox" name="Cabang" id="Cabange">Pemrograman</td>
-                </tr>
-            </table>
+          <legend><b>Data Peserta</b></legend>
+          <table>
+            <tr>
+              <td><label for="Nama">Nama</label></td>
+              <td>:</td>
+              <td><input type="text" name="Nama" id="Nama" size="26" minlength="5" placeholder="Minimal 5 Karakter" /></td>
+            </tr>
+            <tr>
+              <td><label for="Univ">Asal Universitas</label></td>
+              <td>:</td>
+              <td><input type="text" name="Univ" id="Univ" size="26" /></td>
+            </tr>
+            <tr>
+              <td><label for="NIM">NIM</label></td>
+              <td>:</td>
+              <td><input type="number" name="NIM" id="NIM" /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email</label></td>
+              <td>:</td>
+              <td><input type="email" name="email" id="email" size="26" placeholder="Masukkan Email (Gunakan @)" /></td>
+            </tr>
+            <tr>
+              <td>Asal Provinsi</td>
+              <td>:</td>
+              <td>
+                <select name="Provinsi" id="Provinsi" class="select">
+                  <option value="#">Pilih Salah Satu</option>
+                  <option value="Aceh">Aceh</option>
+                  <option value="Sumatera Utara">Sumatera Utara</option>
+                  <option value="Riau">Riau</option>
+                  <option value="Kepulauan Riau">Kepulauan Riau</option>
+                  <option value="Sumatera Barat">Sumatera Barat</option>
+                  <option value="Sumatera Selatan">Sumatera Selatan</option>
+                  <option value="Jambi">Jambi</option>
+                  <option value="Bengkulu">Bengkulu</option>
+                  <option value="Kepulauan Bangka Belitung">Kepulauan Bangka Belitung</option>
+                  <option value="Lampung">Lampung</option>
+                </select>
+              </td>
+            </tr>
+            <tr></tr>
+            <tr>
+              <td>Alamat Lengkap</td>
+              <td>:</td>
+              <td><textarea name="Alamat Lengkap" id="" cols="29" rows="5" class="textarea"></textarea></td>
+            </tr>
+            <tr>
+              <td><label for="Jenis Kelamin">Jenis Kelamin</label></td>
+              <td>:</td>
+              <td><input type="radio" name="Jenis Kelamin" id="Jenis Kelamin" />Laki-laki</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td><input type="radio" name="Jenis Kelamin" id="Jenis Kelaminb" />Perempuan</td>
+            </tr>
+            <tr>
+              <td><label for="Cabang">Lomba Yang Diikuti</label></td>
+              <td>:</td>
+              <td><input type="checkbox" name="Cabang" id="Cabang" />Karya Ilmiah</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td><input type="checkbox" name="Cabang" id="Cabangb" />Robotik</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td><input type="checkbox" name="Cabang" id="Cabangc" />Debat</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td><input type="checkbox" name="Cabang" id="Cabangd" />E-Sport</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td><input type="checkbox" name="Cabang" id="Cabange" />Pemrograman</td>
+            </tr>
+          </table>
         </fieldset>
-        <br>
+        <br />
         <div class="submit">
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
         </div>
-    </form>
+      </form>
     </div>
-</body>
+  </body>
 </html>
